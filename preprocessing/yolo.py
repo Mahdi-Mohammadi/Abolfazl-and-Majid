@@ -874,7 +874,7 @@ first_run = True
 if len(os.listdir('csv/')) == 0:
     BASE_DIR = '../train/'
     CROP_DIR = '../cropped_image/'
-    name_counter = 5203
+    name_counter = 0
     images_name = [name for name in os.listdir('../train/') if 'JPG' in name]
     for name in images_name:
 
